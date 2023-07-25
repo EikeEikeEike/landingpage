@@ -5,6 +5,11 @@ body {
 }
 
 
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 header {
     background: #1F2937;
     height: 60px;
@@ -33,6 +38,10 @@ ul {
     margin-top: auto;
     color: white;
     background: #1F2937;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
