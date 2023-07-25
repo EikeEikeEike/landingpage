@@ -81,12 +81,96 @@ ul {
     border-radius: 20px;
 }
 
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.random-title {
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+    margin: 50px;
+}
+
+.ariana {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+}
+
+.random-images {
+    display: flex;
+    justify-content: center;
+}
+
+.random-image {
+    text-align: center;
+}
+
+.random-text {
+    width: 150px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
 
 .quote {
     background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.quote-text {
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 750px;
+    align-self: center;
 }
 
 
+.quote-signature {
+    font-size: 25px;
+    font-weight: 600;
+    align-self: flex-end;
+    margin-right: 520px;
+    margin-top: 30px;
+}
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-box {
+    width: 950px;
+    height: 130px;
+    display: flex;
+    background: #3882F6;
+    color: white;
+    align-items: center;
+    margin: 100px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+
+.signup-title-text {
+    font-size: 20px;
+}
+
+.signup-title {
+    font-weight: 900;
+}
+
+.signup-button .button {
+    border: 2px solid white;
+}
 
 a {
     color: white;
