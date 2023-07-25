@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
+
 
 header {
     background: #1F2937;
@@ -52,6 +54,21 @@ ul {
     font-weight: 900;
     max-width: 400px;
     color: #F9FAF8;
+    padding-bottom: 15px;
+}
+
+.awesome-text {
+    max-width: 500px;
+    padding-bottom: 35px;
+    font-size: 18px;
+}
+
+.button {
+    background: #3882F6;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px 12px 30px;
+    border-radius: 10px;
 }
 
 .awesome-right {
@@ -61,6 +78,7 @@ ul {
 .awesome-image {
     max-height: 250px;
     max-width: 500px;
+    border-radius: 20px;
 }
 
 
